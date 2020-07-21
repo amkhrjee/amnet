@@ -1,5 +1,5 @@
 
-
+@media only screen and (max-width: 768px){
 *{
   font-family: 'Inter';
   box-sizing: border-box;
@@ -209,4 +209,5 @@ svg{
 }
 .add-button-wrapper{
   margin-top: 2rem;
+}
 }
