@@ -1,6 +1,11 @@
 import React from 'react';
+import { Redirect } from 'react-router-dom';
 
 const Home = () => {
+
+    const handleClick = () => {
+        return <Redirect to="/auth"/>
+    }
     return(
         <div className="home-container">
             <div className="jumbo-text-container">
@@ -37,9 +42,9 @@ const Home = () => {
                         So, this site is to keep that promise that I made to myself a long time ago <span role="img" aria-label="emoji">👏</span> 
                         </p>
                     </div>
-                    <div className="blu-button">
-                        <p id="button-text-blu">LOGIN AS ADMIN <span role="img" aria-label="emoji"> 🔐</span></p>
-                            <div className="blu-button-wrapper"></div>
+                    <div  onClick={handleClick()} className="blu-button">
+                        <p  id="button-text-blu">LOGIN AS ADMIN <span role="img" aria-label="emoji"> 🔐</span></p>
+                            <div  className="blu-button-wrapper"></div>
                     </div>
                 
             </div>
