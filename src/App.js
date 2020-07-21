@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './Layout/Navbar';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './Pages/home';
 import Auth from './Pages/auth';
 import AddMemo from './Pages/addMemo';
@@ -7,12 +8,12 @@ import AddMemo from './Pages/addMemo';
 class App extends Component{
   render(){
     return(
-      <div>
-        <Navbar/>
-        {/* <Home/> */}
-        {/* <Auth/> */}
-        <AddMemo/>
-      </div>
+      <Router>
+        <Switch>
+          <Navbar/>
+          <Route exact path="/" component={Home}/>
+        </Switch>
+      </Router>
     )
   }
 }
