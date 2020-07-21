@@ -25,7 +25,7 @@
   position: relative;
   text-align: center;
   color: #ffffff;
-  bottom: 2rem;
+  bottom: 3rem;
   font-size: 3em;
   font-weight: bold;
 }
@@ -35,7 +35,7 @@
   position: relative;
 }
 .jumbo-text{
-  font-size: 3.2rem;
+  font-size: 3rem;
   padding: 0rem;
   font-weight: bold;
   line-height: 20px;
@@ -102,8 +102,9 @@
   background-color: #143CA3;
   color: #ffffff;
   margin-top: 3rem;
-  padding-bottom: 2rem;;
+  padding-bottom: 2rem;
 }
+
 .blu-tit{
   font-weight: bold;
   font-size: 2.5rem;
@@ -124,10 +125,10 @@
   border-radius: 7px;
   z-index: 1;
   height: 3rem;
-  width: 22rem;
+  width: 85vw;
   margin-top: 2rem;
   position: relative;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   cursor: pointer;
   text-align: center;
   margin-left: 1.5rem;
@@ -140,7 +141,7 @@
   filter: blur(7px);
   border-radius: 7px;
   position: absolute;
-
+  text-align: center;
 }
 #button-text-blu{
   z-index: 10;
