@@ -11,7 +11,9 @@ class App extends Component{
       <Router>
         <Switch>
           <Navbar/>
-          <Route exact path="/" component={Home}/>
+          <Route path="/" component={Home}/>
+          <Route path="/add" component={AddMemo}/>
+          <Route path="/auth" component={Auth}/>
         </Switch>
       </Router>
     )
