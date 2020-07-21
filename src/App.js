@@ -9,8 +9,9 @@ class App extends Component{
   render(){
     return(
       <Router>
+        <Navbar/>
         <Switch>
-          <Navbar/>
+          
           <Route path="/" component={Home}/>
           <Route path="/add" component={AddMemo}/>
           <Route path="/auth" component={Auth}/>
