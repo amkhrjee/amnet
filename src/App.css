@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@531&display=swap');
 
 
-@media only screen and (max-width: 768px){
+/* @media only screen and (max-width: 768px){ */
 *{
   font-family: 'Inter';
   box-sizing: border-box;
   
 }
 
+/* .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: ". home .";
+}
+.home-container{
+ 
+} */
 .navbar-container{
   position: fixed;
   
@@ -217,4 +225,4 @@ svg{
 .add-button-wrapper{
   margin-top: 2rem;
 }
-}
+/* } */
