@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/amnet/static/css/main.4877c10f.chunk.css",
-    "main.js": "/amnet/static/js/main.8adb88c1.chunk.js",
-    "main.js.map": "/amnet/static/js/main.8adb88c1.chunk.js.map",
+    "main.js": "/amnet/static/js/main.15a3d810.chunk.js",
+    "main.js.map": "/amnet/static/js/main.15a3d810.chunk.js.map",
     "runtime-main.js": "/amnet/static/js/runtime-main.7125271a.js",
     "runtime-main.js.map": "/amnet/static/js/runtime-main.7125271a.js.map",
-    "static/js/2.ed0e5d64.chunk.js": "/amnet/static/js/2.ed0e5d64.chunk.js",
-    "static/js/2.ed0e5d64.chunk.js.map": "/amnet/static/js/2.ed0e5d64.chunk.js.map",
+    "static/js/2.569f28db.chunk.js": "/amnet/static/js/2.569f28db.chunk.js",
+    "static/js/2.569f28db.chunk.js.map": "/amnet/static/js/2.569f28db.chunk.js.map",
     "index.html": "/amnet/index.html",
-    "precache-manifest.bf205981af9298d0f7a2c4b3de2c26df.js": "/amnet/precache-manifest.bf205981af9298d0f7a2c4b3de2c26df.js",
+    "precache-manifest.3632f0b56d8ad3306dbb9890a16decd2.js": "/amnet/precache-manifest.3632f0b56d8ad3306dbb9890a16decd2.js",
     "service-worker.js": "/amnet/service-worker.js",
     "static/css/main.4877c10f.chunk.css.map": "/amnet/static/css/main.4877c10f.chunk.css.map",
-    "static/js/2.ed0e5d64.chunk.js.LICENSE.txt": "/amnet/static/js/2.ed0e5d64.chunk.js.LICENSE.txt"
+    "static/js/2.569f28db.chunk.js.LICENSE.txt": "/amnet/static/js/2.569f28db.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7125271a.js",
-    "static/js/2.ed0e5d64.chunk.js",
+    "static/js/2.569f28db.chunk.js",
     "static/css/main.4877c10f.chunk.css",
-    "static/js/main.8adb88c1.chunk.js"
+    "static/js/main.15a3d810.chunk.js"
   ]
 }
