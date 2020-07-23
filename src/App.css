@@ -226,3 +226,15 @@ svg{
   margin-top: 2rem;
 }
 /* } */
+
+.content-wrapper{
+  margin-top: 5rem;
+  margin-left: 1rem;
+  width: 90vw;
+}
+.title-wrapper{
+  font-weight: 800;
+}
+.post-wrapper{
+  font-weight: 200;
+}
