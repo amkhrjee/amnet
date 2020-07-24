@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { SignIn } from '../Actions/authActions';
+import { Redirect } from 'react-router-dom';
 
 class Auth extends Component {
 
@@ -21,6 +22,8 @@ class Auth extends Component {
     })
   }
     render(){
+      const {authError, auth} = this.props
+      if(auth.uid) return <Redirect to='/amnet/add'/>
         return(
             <div className="auth-blue">
                 <p className="auth-title">LOGIN AS ADMIN <span role="img" aria-label="emoji"> 🔐</span></p>
@@ -40,13 +43,13 @@ class Auth extends Component {
 }
 
 
-// const mapStateToProps = state => {
-//   console.log(state);
-//   return {
-//     authError: state.auth.authError,
-//     auth: state.firebase.auth
-//   }
-// }
+const mapStateToProps = state => {
+  console.log(state);
+  return {
+    authError: state.auth.authError,
+    auth: state.firebase.auth
+  }
+}
 
 const mapDispatchToProps = dispatch => {
   return{
@@ -54,4 +57,4 @@ const mapDispatchToProps = dispatch => {
   }
 }
  
-export default connect(null, mapDispatchToProps)(Auth);
+export default connect(mapStateToProps, mapDispatchToProps)(Auth);
