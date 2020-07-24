@@ -4,11 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { createStore, compose, applyMiddleware } from 'redux';
-import { Provider, useSelector } from 'react-redux';
-import contentReducer from './Reducer/contentReducer';
+import { Provider } from 'react-redux';
 import rootReducer from './Reducer/rootReducer';
 import thunk from 'redux-thunk';
-import { getFirebase, ReactReduxFirebaseProvider, isLoaded } from 'react-redux-firebase';
+import { getFirebase, ReactReduxFirebaseProvider } from 'react-redux-firebase';
 import { getFirestore, reduxFirestore, createFirestoreInstance } from 'redux-firestore';
 import firebase from 'firebase/app'
 import fbConfig, {firebaseConfig} from './Firebase/firebaseConfig'
