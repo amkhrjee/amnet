@@ -13,10 +13,10 @@ class App extends Component{
       <Router>
         <Navbar/>
         <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/add" component={AddMemo}/>
-          <Route path="/auth" component={Auth}/>
-          <Route path="/main" component={Content}/>
+          <Route exact path="/amnet" component={Home}/>
+          <Route path="/amnet/add" component={AddMemo}/>
+          <Route path="/amnet/auth" component={Auth}/>
+          <Route path="/amnet/main" component={Content}/>
         </Switch>
       </Router>
     )
