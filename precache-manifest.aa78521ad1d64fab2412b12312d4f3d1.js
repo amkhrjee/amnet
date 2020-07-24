@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da956b85aa9f202969c3a3954decd21e",
+    "revision": "9264d1c297818572c776708882d97804",
     "url": "/amnet/index.html"
   },
   {
-    "revision": "92836c5ec959193a3f0b",
+    "revision": "3ee1b5271bf8e709ebe1",
     "url": "/amnet/static/css/main.f119ed89.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/amnet/static/js/2.62473e4f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "92836c5ec959193a3f0b",
-    "url": "/amnet/static/js/main.1fcec0fe.chunk.js"
+    "revision": "3ee1b5271bf8e709ebe1",
+    "url": "/amnet/static/js/main.f6303e98.chunk.js"
   },
   {
     "revision": "ef23b92af8850b4ee0c5",
