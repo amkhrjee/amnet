@@ -4,7 +4,8 @@
     {
         "src": "/icons/icon.png",
         "type": "image/png",
-        "sizes": "1024x1024"
+        "sizes": "1024x1024",
+        "purpose": "any maskable"
     },
     {
         "src": "\/android-icon-36x36.png",
