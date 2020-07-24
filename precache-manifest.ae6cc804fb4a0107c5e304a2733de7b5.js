@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1030bff97c71c230583a2275adf0a28",
+    "revision": "c184d57507be5b5ab7288c820074810e",
     "url": "/amnet/index.html"
   },
   {
