@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/amnet/static/css/main.f119ed89.chunk.css",
-    "main.js": "/amnet/static/js/main.530704e5.chunk.js",
-    "main.js.map": "/amnet/static/js/main.530704e5.chunk.js.map",
+    "main.js": "/amnet/static/js/main.1fcec0fe.chunk.js",
+    "main.js.map": "/amnet/static/js/main.1fcec0fe.chunk.js.map",
     "runtime-main.js": "/amnet/static/js/runtime-main.7125271a.js",
     "runtime-main.js.map": "/amnet/static/js/runtime-main.7125271a.js.map",
     "static/js/2.62473e4f.chunk.js": "/amnet/static/js/2.62473e4f.chunk.js",
     "static/js/2.62473e4f.chunk.js.map": "/amnet/static/js/2.62473e4f.chunk.js.map",
     "index.html": "/amnet/index.html",
-    "precache-manifest.66fbc334bcc8a8cfb6dd999a53aad977.js": "/amnet/precache-manifest.66fbc334bcc8a8cfb6dd999a53aad977.js",
+    "precache-manifest.3109e6643afc212365f45f0b9922314a.js": "/amnet/precache-manifest.3109e6643afc212365f45f0b9922314a.js",
     "service-worker.js": "/amnet/service-worker.js",
     "static/css/main.f119ed89.chunk.css.map": "/amnet/static/css/main.f119ed89.chunk.css.map",
     "static/js/2.62473e4f.chunk.js.LICENSE.txt": "/amnet/static/js/2.62473e4f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7125271a.js",
     "static/js/2.62473e4f.chunk.js",
     "static/css/main.f119ed89.chunk.css",
-    "static/js/main.530704e5.chunk.js"
+    "static/js/main.1fcec0fe.chunk.js"
   ]
 }
