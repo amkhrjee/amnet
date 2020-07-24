@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/amnet/precache-manifest.5f638a40728d77b684bf4202498954be.js"
+  "/amnet/precache-manifest.f8a4262ef541427669fdadc05384b499.js"
 );
 
 self.addEventListener('message', (event) => {
